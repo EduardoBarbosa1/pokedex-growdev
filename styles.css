@@ -1,0 +1,125 @@
+.eletrico {
+    height: 50px;
+    width: 100px;
+    border: 2px solid black;
+    background-color: yellow;
+    margin: 5%;
+}
+
+.aquatico {
+    height: 50px;
+    width: 100px;
+    border: 2px solid black;
+    background-color: rgb(23, 180, 219);
+    margin: 5%;
+}
+
+.ghost {
+    height: 50px;
+    width: 100px;
+    border: 2px solid black;
+    background-color: rebeccapurple;
+    color: aliceblue;
+    margin: 5%;
+}
+
+.grass {
+    height: 50px;
+    width: 100px;
+    border: 2px solid black;
+    background-color: rgb(51, 153, 59);
+    color: black;
+    margin: 5%;
+}
+
+
+body {
+    background-color: lightsalmon;
+}
+
+aside {
+    height: 70%;
+    width: 20%;
+    border: 2px solid black;
+    background-color: rgb(104, 95, 87);
+    position: fixed;
+    top: 10%;
+    left: 5%;
+    text-align: center;
+
+}
+
+main {
+    height: 70%;
+    width: 60%;
+    border: 2px solid black;
+    background-color: rgb(208, 203, 156);
+    position: fixed;
+    top: 10%;
+    right: 10%;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+menu {
+    position: fixed;
+    left: 1%;
+}
+
+span {
+    position: fixed;
+    right: 10%;
+    bottom: 20%;
+}
+
+
+#pokedex {
+    /* height: 100%; */
+    width: 100%;
+}
+
+#title {
+    position: fixed;
+    top: 2px;
+    right: 40%;
+}
+
+#pokemon {
+    width: 30%;
+    height: 30%;
+}
+
+#eletrico {
+    color: white;
+}
+
+#eletrico:hover {
+    color: yellow
+}
+
+#aquatico {
+    color: white;
+}
+
+#aquatico:hover {
+    color: rgb(23, 180, 219);
+}
+
+#ghost {
+    color: white;
+}
+
+#ghost:hover {
+    color: rebeccapurple
+}
+
+#grass {
+    color: white;
+}
+
+#grass:hover {
+    color: rgb(51, 153, 59)
+}
